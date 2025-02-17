@@ -1,4 +1,6 @@
 # TUNER APP
+![Tunner](https://github.com/user-attachments/assets/63538daf-7e49-411d-bfc2-ac7686b49f1d)
+
 
 Welcome to **TUNER APP**, a music application where users can explore and play songs from various genres and artists. This app is designed to provide a seamless music experience with a user-friendly interface and robust features.
 
