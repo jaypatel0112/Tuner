@@ -71,10 +71,6 @@ Welcome to **TUNER APP**, a music application where users can explore and play s
 - Understood the importance of proper UI constraints and design.
 - Discovered the power of **CocoaPods** for integrating third-party libraries like Firebase.
 
-## Project Video
-
-Check out the [project video](#) to see the app in action!
-
 ---
 
 This project was an exciting and challenging journey, and I’m proud of what I’ve accomplished. I look forward to improving it further and building more apps in the future!**TUNER APP**<br/>
