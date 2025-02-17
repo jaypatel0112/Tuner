@@ -1,4 +1,81 @@
-**TUNER APP**<br/>
+# TUNER APP
+
+Welcome to **TUNER APP**, a music application where users can explore and play songs from various genres and artists. This app is designed to provide a seamless music experience with a user-friendly interface and robust features.
+
+## Features
+
+### 1. **Greetings Page**
+- Upon launching the app, users are greeted with a welcoming page that showcases the passion for music.
+- A "Let’s Play" button directs users to the main interface.
+
+### 2. **Tab Bar Controller**
+- The app features a tab bar with two main sections:
+  - **Genre (Music) Bar**: Displays different music genres.
+  - **Favorite (Like) Bar**: Shows a list of songs liked by the user.
+
+### 3. **Google Firebase Authentication**
+- Users can sign in using their Google accounts for easy access to the app.
+
+### 4. **Genre Page**
+- Displays various music genres fetched from an API in JSON format.
+- Each genre is represented with an image and name.
+
+### 5. **Favorite Songs**
+- Users can like songs, which are then stored in the "Favorite" section.
+- Songs can be played or paused with a single tap.
+- Users can remove songs from their favorites list.
+
+### 6. **Navigation and Album Details**
+- Selecting a genre (e.g., "Pop") navigates to a list of artists within that genre.
+- Each artist's page shows their albums, including album art, name, and release date.
+- Selecting an album displays its songs, which can be played or added to favorites.
+
+### 7. **Audio Playback**
+- The app uses **AVPlayer** to handle audio playback, allowing users to play and pause songs seamlessly.
+
+## APIs Used
+
+- **URLSession**: Fetches data (genres, albums, artists, and songs) from the Deezer API in JSON format.
+- **AVPlayer**: Manages audio playback, including loading, playing, and pausing songs.
+- **Google Firebase**: Simplifies user authentication with Google Sign-In.
+
+## Challenges Faced
+
+1. **UI Design and Constraints**:
+   - Designing collection view cells and applying constraints was time-consuming and required extensive troubleshooting.
+   
+2. **Data Handling**:
+   - Learning to use **URLSession** and **JSONDecoder** to fetch and display data from the API was a significant challenge.
+   - Managing audio data with **AVPlayer** required careful handling of song IDs and durations.
+
+3. **Navigation**:
+   - Implementing navigation between different views (genre, artist, album, and song) using segues was complex.
+
+4. **Limitations**:
+   - No logout button due to time constraints.
+   - Lack of a search feature, which would enhance user experience.
+   - Minor glitches that occasionally required restarting Xcode.
+
+## Future Improvements
+
+- Add a **logout button** and a **user profile page**.
+- Implement a **search feature** to allow users to find songs by name, genre, or artist.
+- Enhance the UI/UX for a more polished experience.
+
+## What I Learned
+
+- Gained hands-on experience with **URLSession**, **AVPlayer**, and **Google Firebase**.
+- Learned to manage complex navigation and data flow in an iOS app.
+- Understood the importance of proper UI constraints and design.
+- Discovered the power of **CocoaPods** for integrating third-party libraries like Firebase.
+
+## Project Video
+
+Check out the [project video](#) to see the app in action!
+
+---
+
+This project was an exciting and challenging journey, and I’m proud of what I’ve accomplished. I look forward to improving it further and building more apps in the future!**TUNER APP**<br/>
 I have created a song application where user can play different song from different genres and different singers. 
 
 In this app, when a user starts with the application the user will be directed to the greetings page as shown on the left side. I have set a cover page for it which shows the passion for the song. When a user tries clicking on the button saying “Let’s Play” it gets directed to the tab bar controller which has 2 slides: i) Genre(Music) bar and ii) Favorite(Like) bar. The default one is the Genre.
